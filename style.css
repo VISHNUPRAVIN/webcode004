@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-color: bisque;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: "caveat",cursive ;
+   margin: 0;
+}
+input{
+    background-color: rgb(139, 92, 139);
+    color: aliceblue;
+    font-size: xx-large;
+    border-radius: 15px;
+    
+}
+input:hover{
+    background-color: aliceblue;
+    color: rgb(139, 80, 139);
+    box-shadow: 12px 12px 2px 1px rgba(0,0,255,.2);
+}
+button{
+    font-size: 30px;
+}
+.card{
+    background: linear-gradient(to bottom,rgb(245,163,41),rgb(233,205,45));
+    padding: 1rem;
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 10px 20px rgba(0,0,0,.5);
+}
+.col-md-6{
+    background-color: rgb(250, 206, 12);
+}
+h1{
+   font-size: 50px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+h3{
+    text-align: center;
+}
+h4{
+    color:red;
+}
+    
+    
